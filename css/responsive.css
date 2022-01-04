@@ -106,6 +106,10 @@
         background-size: cover;
     }
 
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
+    }
+
     .logo {
         width: 30%;
     }
@@ -117,6 +121,10 @@
         background-image: url("../image/bg-img/josh-rose-fida.jpg");
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
     }
 }
 
@@ -139,7 +147,7 @@
     }
 
     .service-section {
-        background-image: linear-gradient(#5959dd, #972cc8);
+        background-image: linear-gradient(#952DC9, #952DC9);
     }
 
     .logo {
@@ -174,7 +182,9 @@
         background-size: cover;
     }
 
-    .service-section {}
+    .service-section {
+        background-image: linear-gradient(#020202, #020202);
+    }
 
     .logo {
         width: 10%;
