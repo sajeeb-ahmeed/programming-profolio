@@ -18,7 +18,7 @@
         position: fixed;
         width: 100vw;
         height: auto;
-        background-image: linear-gradient(rgb(4, 45, 98), rgb(22, 69, 144));
+        background-image: linear-gradient(#042d62, #164590);
         top: 8rem;
         left: -100%;
         text-align: center;
@@ -39,7 +39,7 @@
     a:hover,
     a.active {
         background: none;
-        color: rgb(19, 18, 18);
+        color: #131212;
     }
 
     #check:checked~ul {
@@ -57,6 +57,149 @@
         width: 100%;
         height: 100%;
     }
+
+    .container {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 1rem;
+
+        padding-top: 2rem;
+
+    }
+
+    .focoused-on-peraghrap {
+        font-size: 1.6rem;
+
+    }
+
+    .section_wrapper {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+
+    }
+
+    .mission-2022-outer {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+    }
+
+    .mission-2022 {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-right: 0;
+        margin-bottom: 3.5rem;
+        border: .1rem solid #fad7b3;
+        border-radius: 1.5rem;
+        box-shadow: .5rem .5rem .5rem 0 #353535e5;
+        -webkit-box-shadow: 1rem 1rem .5rem 0 #474747fa;
+        -moz-box-shadow: 1rem 1rem .5rem 0 #5c5a5abf;
+    }
+
+    .illstrators {
+        width: 100%;
+    }
+
+    .developments-unlimited-2022 {
+        display: block;
+        height: auto;
+        padding: 2rem 8rem;
+    }
+
+    .develop-cute-girls {
+        width: 100%;
+        margin-right: 5rem;
+        margin-top: 0rem;
+    }
+
+    .development-2022-dwl {
+        width: 100%;
+    }
+
+    .development-2022-dwl h1 {
+        font-family: sans-serif;
+        font-weight: normal;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .container-global-projects {
+        width: 100%;
+        display: block;
+        padding: 2rem 8rem;
+        padding-top: 7rem;
+        font-weight: normal;
+    }
+
+    .global-project-comminiuty-2022 {
+        width: 100%;
+        margin-top: 3rem;
+        margin-right: .5rem;
+    }
+
+    .globalproject--img-2022 {
+        width: 100%;
+        margin-right: 1rem;
+        margin-top: 2rem;
+    }
+
+    .application-section {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .h1-router-app {
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+
+    .cebac-app {
+        width: 100%;
+        display: block;
+        padding: 2rem 4rem;
+        padding-top: 2rem;
+    }
+
+    .cebacbd-app-img {
+        width: 70%;
+        /* background-image: url(../images/shapes/shape-9.png);
+        background-repeat: no-repeat;
+        background-size: cover; */
+        opacity: 2;
+        margin: 1rem;
+
+    }
+
+    .cebacbd-app-img img {
+        width: 80%;
+        margin-left: 1rem;
+
+    }
+
+    .cebacbd-success {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .cebacbd-success h1 {
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    .cebacbd-peraghraph {
+        text-align: justify;
+        font-family: sans-serif;
+        letter-spacing: 0rem;
+        line-height: 2.6rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -113,6 +256,164 @@
     .logo {
         width: 30%;
     }
+
+    .section_wrapper {
+        width: 100%;
+        display: block;
+
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 1rem;
+        padding: 5rem;
+        padding-top: 8rem;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 1rem;
+
+        padding-top: 2rem;
+
+    }
+
+    .focoused-on-peraghrap {
+        font-size: 1.6rem;
+
+    }
+
+    .section_wrapper {
+        width: 100%;
+        display: block;
+        margin-left: 0;
+
+    }
+
+    .mission-2022-outer {
+        width: 100%;
+        display: block;
+        height: auto;
+        padding: 1rem 3rem;
+        margin-top: 2rem;
+    }
+
+    .mission-2022 {
+        width: 100%;
+        padding: 1rem 4rem;
+        margin-right: 0;
+        margin-bottom: 3.5rem;
+        border: .1rem solid #fad7b3;
+        border-radius: 1.5rem;
+        box-shadow: .5rem .5rem .5rem 0 #353535e5;
+        -webkit-box-shadow: 1rem 1rem .5rem 0 #474747fa;
+        -moz-box-shadow: 1rem 1rem .5rem 0 #5c5a5abf;
+    }
+
+    .illstrators {
+        width: 100%;
+    }
+
+    .developments-unlimited-2022 {
+        display: block;
+        height: auto;
+        padding: 2rem 8rem;
+    }
+
+    .develop-cute-girls {
+        width: 100%;
+        margin-right: 5rem;
+        margin-top: 0rem;
+    }
+
+    .development-2022-dwl {
+        width: 100%;
+    }
+
+    .development-2022-dwl h1 {
+        font-family: sans-serif;
+        font-weight: normal;
+        margin-top: 3rem;
+        margin-left: 2rem;
+    }
+
+    .container-global-projects {
+        width: 100%;
+        display: block;
+        padding: 2rem 8rem;
+        padding-top: 7rem;
+        font-weight: normal;
+    }
+
+    .global-project-comminiuty-2022 {
+        width: 100%;
+        margin-top: 3rem;
+        margin-right: .5rem;
+    }
+
+    .globalproject--img-2022 {
+        width: 100%;
+        margin-right: 1rem;
+        margin-top: 2rem;
+    }
+
+    .application-section {
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
+    .h1-router-app {
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+
+    .cebac-app {
+        width: 100%;
+        display: block;
+        padding: 2rem 4rem;
+        padding-top: 2rem;
+    }
+
+    .cebacbd-app-img {
+        width: 70%;
+        /* background-image: url(../images/shapes/shape-9.png);
+        background-repeat: no-repeat;
+        background-size: cover; */
+        opacity: 2;
+        margin: 1rem;
+
+    }
+
+    .cebacbd-app-img img {
+        width: 80%;
+        margin-left: 1rem;
+
+    }
+
+    .cebacbd-success {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .cebacbd-success h1 {
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
+
+    .cebacbd-peraghraph {
+        text-align: justify;
+        font-family: sans-serif;
+        letter-spacing: 0rem;
+        line-height: 2.6rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+
 }
 
 
@@ -126,6 +427,23 @@
     .service-section {
         background-image: linear-gradient(#020202, #020202);
     }
+
+    .section_wrapper {
+        width: 100%;
+        display: flex;
+
+    }
+
+    .container {
+        width: 100%;
+        display: flex;
+        height: auto;
+        padding: 1rem;
+        padding: 5rem;
+        padding-top: 8rem;
+    }
+
+
 }
 
 

@@ -32,7 +32,6 @@ a {
 }
 
 .logo {
-
     margin-left: 1rem;
     height: 9rem;
     object-fit: cover;
@@ -199,7 +198,377 @@ a:hover {
 
 hr {
     border: 0;
-
     height: 10px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(44, 118, 187, 0.904), rgba(0, 0, 0, 0));
+}
+
+/* ====== */
+
+
+/* ==== BoILer CSS ==== */
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 4.1rem;
+
+}
+
+h2 {
+    font-size: 3.3rem;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-size: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+h4 {
+    font-size: 2.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: 1.7rem;
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.container_wrapper {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    padding: 5rem;
+    padding-top: 8rem;
+}
+
+.section_wrapper {
+    width: 50%;
+    margin-left: 4rem;
+}
+
+/* .section_wrapper-1 {
+    width: 100%;
+    margin-left: 4rem;
+} */
+
+.text-center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.color1 {
+    color: #FFAD5A;
+}
+
+.color2 {
+    color: #1a53da;
+}
+
+.color3 {
+    color: #00252e;
+}
+
+.color4 {
+    color: #cfccbf;
+}
+
+.shawos-3 {
+    text-shadow: .1rem 0 .4rem #797777;
+}
+
+.bg-gradient-1 {
+    background: #94b8c8;
+    background: linear-gradient(90deg, #c19bc5 25%, #e0d0bb 72%);
+}
+
+.bg-gradient-2 {
+    background: #94e6f1;
+    background: linear-gradient(90deg, #a6a5a7 25%, #dadada 72%);
+}
+
+.bg-gradient-3 {
+    background: #94e6f1;
+    background: linear-gradient(90deg, #a27fc5 25%, #83c0b3 72%);
+}
+
+/* ==== style stay-focused-on start === */
+.stay-focused-on-h1 {
+    color: #3a3939;
+    font-family: Yeseva One;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 7rem;
+    border-left: 1rem solid #FF5959;
+    letter-spacing: .1rem;
+    padding-left: 2.6rem;
+
+}
+
+.focoused-on-peraghrap {
+    padding-top: 2.5rem;
+    text-align: justify;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+}
+
+.contact-me {
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    padding: 1.8rem 3.3rem;
+    background: #FF5959;
+    background: linear-gradient(90deg, #c237d1 25%, #FF5959 72%);
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+}
+
+.button:hover {
+    padding: 1.8rem 3.3rem;
+    background: #ec8028;
+    background: linear-gradient(90deg, #ff8e6b 25%, #e18ef6 72%);
+    color: #3f3f3f;
+    letter-spacing: .1rem;
+    border-radius: 1rem;
+    transition: all .5s ease;
+}
+
+.focused-scroll-down {
+    margin-top: 3rem;
+}
+
+.focused-on-img {
+    width: 60%;
+    margin-left: 5rem;
+}
+
+/* ==== style mission-vission-golas start === */
+.mission-vission-golas-2022-parents {
+    margin-bottom: 5rem;
+}
+
+.my-mission-area {
+    width: 100%;
+    margin-top: 7rem;
+}
+
+.my-mission {
+    color: #091941;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.mission-2022-outer {
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 2rem 8rem;
+    margin-top: 3rem;
+}
+
+.mission-2022 {
+    width: 33%;
+    padding: 2rem 5rem;
+    margin-right: 2.4rem;
+    border: .1rem solid #fad7b3;
+    border-radius: 1.5rem;
+    box-shadow: .5rem .5rem .5rem 0 #353535e5;
+    -webkit-box-shadow: 1rem 1rem .5rem 0 #474747fa;
+    -moz-box-shadow: 1rem 1rem .5rem 0 #5c5a5abf;
+}
+
+.illstrators {
+    width: 40%;
+}
+
+.mission-vision-golas-h3 {
+    text-align: left;
+    padding-top: 2.5rem;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
+/* ====style unlimited devolopement start==== */
+
+.developments-unlimited-2022 {
+    display: flex;
+    height: auto;
+    padding: 2rem 8rem;
+}
+
+.develop-cute-girls {
+    width: 35%;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.develop-cute-girls img {
+    width: 100%;
+}
+
+.development-2022-dwl {
+    width: 65%;
+}
+
+.development-2022-dwl h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 8rem;
+    margin-left: 6rem;
+}
+
+.nonstop-development-korte-hobe {
+    text-align: justify;
+    margin-left: 6rem;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.documentation_button {
+    margin-left: 6rem;
+}
+
+/* ===Projects-global community=== */
+.container-global-projects {
+    width: 100%;
+    display: flex;
+    padding: 2rem 8rem;
+    padding-top: 7rem;
+}
+
+.global-project-comminiuty-2022 {
+    width: 60%;
+    margin-top: 9rem;
+    margin-right: 20rem;
+}
+
+.globalproject--img-2022 {
+    width: 33%;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+
+.globalproject--img-2022 img {
+    width: 100%;
+}
+
+.golbal-projecet-h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.programming-hero-1 {
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2.8rem;
+    padding-bottom: 5rem;
+}
+
+/* ===Application  Section Style=== */
+.application-section {
+    margin: 8rem 0;
+    margin-top: 15rem;
+}
+
+.h1-router-app {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.cebac-app {
+    width: 100%;
+    display: flex;
+    padding: 2rem 8rem;
+    padding-top: 7rem;
+}
+
+.cebacbd-app-img {
+    width: 40%;
+    background-image: url(../images/shapes/shape-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 2;
+    margin: 6rem;
+
+}
+
+.cebacbd-app-img img {
+    width: 62%;
+    margin-left: 17rem;
+
+}
+
+.cebacbd-success {
+    width: 50%;
+    margin: 6rem;
+}
+
+.cebacbd-success h1 {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.cebacbd-peraghraph {
+    text-align: justify;
+    font-family: sans-serif;
+    letter-spacing: .1rem;
+    line-height: 2.8rem;
+    margin-bottom: 8rem;
+}
+
+/* === footer=== */
+#footer {
+    /* position: fixed; 
+     left: 0;
+    bottom: 0; */
+    width: 100%;
+    height: 10rem;
+    background-color: #191c29;
+    color: white;
+    text-align: center;
+
+}
+
+#footer h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    font-style: italic;
+    padding-top: 2.5rem;
+}
+
+#footer p {
+    color: #737e94;
+    font-family: sans-serif;
+    padding: .2rem;
 }
